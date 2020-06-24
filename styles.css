@@ -1,0 +1,54 @@
+/* styles for my css demo */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fad96e;
+  font-family: Roboto Mono, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mainContainer {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.bioPic {
+  width: 50%;
+  display: block;
+  margin: 3rem auto;
+  border-radius: 50%;
+  border: .5rem white solid;
+}
+
+.mainContainer a:link {
+  background: #3703bd;
+  padding: 1rem;
+  margin: 2rem;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.mainContainer a:visited {
+  color: white;
+}
+
+.mainContainer a:hover {
+  background: white;
+  color: #3703bd;
+  text-decoration: underline;
+  box-shadow: -.5rem .5rem #3703bd;
+}
