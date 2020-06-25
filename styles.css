@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #fad96e;
+  background: #fdf2cf;
   font-family: Roboto Mono, sans-serif;
 }
 
@@ -30,7 +30,7 @@ img {
   display: block;
   margin: 3rem auto;
   border-radius: 50%;
-  border: .5rem white solid;
+  border: .35rem #3703bd solid;
 }
 
 .mainContainer a:link {
@@ -46,7 +46,7 @@ img {
   color: white;
 }
 
-.mainContainer a:hover {
+.mainContainer a:hover, .mainContainer a:active {
   background: white;
   color: #3703bd;
   text-decoration: underline;
